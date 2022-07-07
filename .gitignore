@@ -1,0 +1,7 @@
+.idea
+target
+*.html
+*/logs
+.log
+logs
+.DS_Store
