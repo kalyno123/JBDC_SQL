@@ -1,4 +1,4 @@
-package database;
+package db.database;
 
 import org.testng.Assert;
 
