@@ -13,7 +13,7 @@ public class DatabaseConnection {
         String username = "chriskaly";
         String password = "chriskaly123!";
         String query = "select * from employees";
-
+git
         //CREATING THE CONNECTION TO THE DATABASE WITH THE PARAMETERS
         Connection connection = DriverManager.getConnection(url, username, password);
         System.out.println("Database connection is successful"); // print to show the connection with those parameters are passing
