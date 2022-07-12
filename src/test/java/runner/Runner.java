@@ -20,8 +20,7 @@ import java.util.List;
 @CucumberOptions(
         plugin = {"pretty", "html: target/cucumber.html", "json:target/cucumber.json"},
         features = "src/test/resources",
-        glue = {"stepDef", "utils"},
-        dryRun = true
+        glue = {"stepDef", "utils"}
 )
 
 public class Runner extends AbstractTestNGCucumberTests {
