@@ -13,7 +13,7 @@ public class DatabaseConnection {
         String username = "chriskaly";
         String password = "chriskaly123!";
         String query = "select * from employees";
-git
+
         //CREATING THE CONNECTION TO THE DATABASE WITH THE PARAMETERS
         Connection connection = DriverManager.getConnection(url, username, password);
         System.out.println("Database connection is successful"); // print to show the connection with those parameters are passing
@@ -24,7 +24,7 @@ git
         ResultSet resultSet = statement.executeQuery(query); // here is where the query we want is passed in to be executed
 
         // ResulSetMetaData gives the information about the table.
-        // You cannot simply print out the column values. We need to put them into iterations.
+        // You cannot simply print out the column values. We need to put them into iterations(loops).
         ResultSetMetaData resultSetMetaData = resultSet.getMetaData();
 
         System.out.println("Number of column query returns = " + resultSetMetaData.getColumnCount()); // 11

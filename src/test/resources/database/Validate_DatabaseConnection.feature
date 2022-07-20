@@ -7,4 +7,4 @@ Feature: As a QE, I validate that I can connect to DB
     Then Validate the <salary>
     Examples: Database query
       | query                             | salary |
-      | select min(salary) from employees | 2100   |
+      | select min(salary) from employees | 2101   |

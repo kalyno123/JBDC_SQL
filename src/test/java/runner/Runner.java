@@ -64,7 +64,7 @@ public class Runner extends AbstractTestNGCucumberTests {
         ReportBuilder reportBuilder = new ReportBuilder(jsonFiles, configuration);
         Reportable result = reportBuilder.generateReports();
 
-        Reporter.log("\n**************************************************************************************************************" +
+        System.out.println("\n**************************************************************************************************************" +
                 "\n--------------------------------------   LOCAL PRETTY REPORT CREATED   ----------------------------------------" +
                 "\nLink: http://localhost:63342/" + projectName + "/" + reportFilePath + "/cucumber-html-reports/overview-features.html" +
                 "\n---------------------------------------------------------------------------------------------------------------" +
